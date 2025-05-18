@@ -2,7 +2,7 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 import mapboxgl from 'https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/+esm';
 // Check that Mapbox GL JS is loaded
 console.log('Mapbox GL JS Loaded:', mapboxgl);
-import { MAPBOX_API_KEY } from './config.js';
+//import { MAPBOX_API_KEY } from './config.js';
 mapboxgl.accessToken = "pk.eyJ1Ijoia2V2aW5rY2hlbjEiLCJhIjoiY21hcTU1NWo5MDV0bzJrcHV1cnZlOWVqeiJ9.8RKpbknyw5jqaK6LlZrb2g";
 
 // Initialize the map
